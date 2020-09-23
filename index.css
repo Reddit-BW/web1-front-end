@@ -123,3 +123,28 @@ section .bios-container .bio p, img, h3, h4 {
 	padding: 1%;
 }
 
+#review-section #review-container {
+	display: flex;
+	flex-flow: wrap;
+	flex-direction: column;
+}
+
+#review-section #review-container #top-reviews, #bottom-reviews {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+#review-section #review-container img {
+	width: 3rem;
+	height 3rem;
+}
+
+#review-section #review-container .review {
+	margin: 5%;
+	padding: 2%;
+	background: white;
+	border-radius: 15px;
+	width: 18%;
+}

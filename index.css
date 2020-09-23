@@ -99,13 +99,27 @@ section .title {
 section .bios-container {
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: center;
-
 }
 
+section .bios-container .bio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2% 0;
+}
 section .bios-container .bio img {
 	width: 5rem;
 	height: 5rem;
 	border-radius: 50%;
+}
+
+section .bios-container .bio p {
+	width: 50%;
+	text-align: center;
+}
+
+section .bios-container .bio p, img, h3, h4 {
+	padding: 1%;
 }
 

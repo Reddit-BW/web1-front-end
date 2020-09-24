@@ -99,14 +99,16 @@ section .title {
 section .bios-container {
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 section .bios-container .bio {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	flex-direction: column;
 	padding: 2% 0;
+	width: 35%;
 }
 section .bios-container .bio img {
 	width: 5rem;
@@ -121,6 +123,7 @@ section .bios-container .bio p {
 
 section .bios-container .bio p, img, h3, h4 {
 	padding: 1%;
+	font-size: 1.25rem;
 }
 
 #review-section #review-container {
@@ -138,7 +141,7 @@ section .bios-container .bio p, img, h3, h4 {
 
 #review-section #review-container img {
 	width: 3rem;
-	height 3rem;
+	height: 3rem;
 }
 
 #review-section #review-container .review {
@@ -147,4 +150,15 @@ section .bios-container .bio p, img, h3, h4 {
 	background: white;
 	border-radius: 15px;
 	width: 18%;
+}
+
+@media (max-width: 500px) {
+	.bios-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.bios-container p {
+		display: inline-block;
+		width: 500%;
+	}
 }

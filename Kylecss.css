@@ -88,6 +88,10 @@ nav a {
 	color: white;
 }
 
+nav a:hover {
+	color: #92bddf;
+}
+
 section .title {
 	text-align: center;
 	font-size: 2.5rem;
@@ -117,7 +121,7 @@ section .bios-container .bio img {
 }
 
 section .bios-container .bio p {
-	width: 50%;
+	width: 75%;
 	text-align: center;
 }
 
@@ -168,7 +172,8 @@ footer div a {
 }
 
 footer nav a {
-	margin: 0%;
+	padding: 1rem;
+	text-decoration: underline;
 }
 
 @media (max-width: 500px) {

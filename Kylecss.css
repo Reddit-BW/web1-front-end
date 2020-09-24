@@ -83,7 +83,7 @@ header .nav nav {
 	border-radius: 10px;
 }
 
-header .nav nav a {
+nav a {
 	text-decoration: none;
 	color: white;
 }
@@ -150,6 +150,25 @@ section .bios-container .bio p, img, h3, h4 {
 	background: white;
 	border-radius: 15px;
 	width: 18%;
+}
+
+footer {
+	background: darkblue;
+	display: flex;
+	justify-content: space-between;
+	padding: 7%;
+}
+
+footer div a {
+	text-decoration: none;
+	border-radius: 15px;
+	background: #ff6314;
+	padding: .5rem;
+	color: white;
+}
+
+footer nav a {
+	margin: 0%;
 }
 
 @media (max-width: 500px) {

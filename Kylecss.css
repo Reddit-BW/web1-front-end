@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 /* End of Reset */
+
+
 body {
 	background: #92bddf;
 }
@@ -81,6 +83,8 @@ header .nav nav {
 	display: flex;
 	justify-content: space-evenly;
 	border-radius: 10px;
+	box-shadow: 5px 5px grey;
+	align-items: center;
 }
 
 nav a {
@@ -90,6 +94,17 @@ nav a {
 
 nav a:hover {
 	color: #92bddf;
+}
+
+header .nav nav #sign {
+	border-radius: 10px;
+	background: white;
+	padding: .5rem;
+	color: #ff6314;
+}
+
+header .nav nav #sign:hover {
+	background-color: antiquewhite;
 }
 
 section .title {
@@ -176,6 +191,23 @@ footer nav a {
 	text-decoration: underline;
 }
 
+#Testimonials-bottom {
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+	border: 3px white;
+}
+
+#Testimonials-bottom a {
+	text-decoration: none;
+	border-radius: 15px;
+	background: #ff6314;
+	padding: .5rem;
+	color: white;
+	width: 6rem;
+	text-align: center;
+}
+
 @media (max-width: 500px) {
 	.bios-container {
 		flex-direction: column;
@@ -184,5 +216,15 @@ footer nav a {
 	.bios-container p {
 		display: inline-block;
 		width: 500%;
+	}
+	#review-section #review-container .review {
+		width: 20%;
+	}
+	footer div a {
+		font-size: .8rem;
+	}
+
+	footer nav a {
+		font-size: .8rem;
 	}
 }
